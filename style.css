@@ -1,39 +1,28 @@
-* {
-    font-family: 'Iosevka Web';
-}
+@import url('https://fonts.cdnfonts.com/css/perfect-dos-vga-437');
 
-body {
+* {
+    font-family: 'Perfect DOS VGA 437 Win', sans-serif;
     background-color: black;
-    color: white;
-    min-height: 70vh;
-    margin: 0;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
 }
 
 .center {
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+  }
+
+.banner {
+    position: relative;
+    top: 1em;
+    color: #e64553;
+    font-size: 20px;
     text-align: center;
 }
 
-.baner {
-    font-size: 80px;
-}
-
 .main {
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 25px;
-    line-height: 1.5em;
-}
-
-.footer {
-    font-size: 20px;
-}
-
-span > span {
-    color: crimson;
-}
-
-span > a {
-    color: aqua;
+    position: relative;
+    top: 7em;
+    font-size: 45px;
+    color: #dd7878;
+    border-bottom: 3px dotted #4c4f69;
 }
