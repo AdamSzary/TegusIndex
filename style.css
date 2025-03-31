@@ -21,6 +21,7 @@
 
 .main {
     position: relative;
+    text-align: center;
     top: 7em;
     font-size: 45px;
     color: #dd7878;
